@@ -19,8 +19,11 @@
     font-weight: 100;
     font-size: 3.5rem;
     color:white;
-    scrollbar-color:rgb(222,192,222);
 }
+h1:hover{
+    color:background: rgb(222,192,222);
+}
+
 
 .navbar.scrolled {
     background: rgb(222,192,222);
