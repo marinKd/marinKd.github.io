@@ -19,6 +19,9 @@
     font-weight: 100;
     font-size: 3.5rem;
     color:white;
+    .scrolled{
+        color: blue;
+    }
 }
 
 .navbar.scrolled {
