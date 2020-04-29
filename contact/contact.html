@@ -25,12 +25,31 @@
             </ul>
         </div>
     </nav>
+	<section class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <h1 class="nav-link">929<span>/</span>215<span>/</span>8730</h2>
+					<h1 class="nav-link">marin.kocollari2<span>@</span>gmail<span>.</span>com</h2>
+                </div>
+            </div>
+		    <div class="col-lg-6">
+                <img class="img-fluid" src="https://marinkd.github.io/contact/profpic.jpg" alt="">
+            </div>
+        </div>
+    </section>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
-	<p>This is where I introduce myself and present different projects that I will be working on</p>
-	<h3>Links:</h3>
-	<ul>
-	</ul>
-
+	<script>
+        $(function () {
+            $(document).scroll(function(){
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
 </body>
 </html>
