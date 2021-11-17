@@ -40,3 +40,6 @@ body {
     background: #4056A1;
     font-family: "Nunito", sans-serif;
 }
+#profpic{
+    border-radius: 50%;
+}
